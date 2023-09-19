@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 0 370px;
+}
+.header-line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 0;
+}
+.header-line-text{
+    display: flex;
+    align-items: center;
+}
+.header-logo-text{
+    color: #000;
+    font-family: Dela Gothic One;
+    font-size: 20px;
+    font-weight: 400;
+}
+.header-b{
+    margin-left: 30px;
+}
+.header-text-bold{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+
+    margin-left: 30px;
+}
+.header-text-light{
+    color: #757575;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+
+    margin-left: 30px;
+}
+
+.header-line-sing-in{
+    display: flex;
+    align-items: center;
+    margin-left: 420px;
+}
+.header-text-light-alex{
+    color: #757575;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+
+    margin-left: 10px;
+}
+.header-sing-in{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+.main-box{
+    display: flex;
+    background-color: #F6F5F4;
+    height: 760px;
+}
+.main-text-box{
+    padding-top: 151px;
+}
+
+.main-blue-text{
+    color:#2B788B;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.main-bold-text{
+    color:#000;
+    font-family: Dela Gothic One;
+    font-size: 56px;
+    font-weight: 400;
+    letter-spacing: -2px;
+
+    margin-top: 21px;
+}
+
+.main-light-text{
+    color:#757575;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+
+    margin-top: 30px;
+}
+.main-button{
+    margin-top: 42px;
+}
+.main-btn{
+    color: #2B788B;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+
+    padding: 14px 22px;
+    background-color: #C3DCE3;
+    border-radius: 100px;
+}
+.main-frame-box{
+    position: absolute;
+    left: 920px;
+    bottom: 110px;
+}
+
+
+
+
+.main-2-box{
+    display: flex;
+}
+.main-2-frame-box{
+    padding-top: 95px;
+}
+.main-2-bold-text{
+    color:#000;
+    font-family: Dela Gothic One;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: -2px;
+
+    margin-top: 110px;
+}
+.main-2-light-text{
+    color:#757575;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.72px;
+
+    margin-top: 30px;
+}
+
+.main-2-button{
+    margin-top: 42px;
+}
+
+.main-2-btn{
+    color:#2B788B;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.64px;
+
+    padding: 14px 22px;
+    background-color: #C3DCE3;
+    border-radius: 100px;
+}
+
+
+
+
+
+.bottom{
+    background-color: #F6F5F4;
+    margin-top: 95px;
+}
+.bottom-container{
+    padding: 0 104px;
+    display: flex;
+    align-items: center;
+}
+.bottom-text-line-1{
+    padding: 52px 0 38px 0;
+}
+.bottom-copy-text{
+    color:#757575;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.bottom-text-line-2{
+    display: flex;
+    margin-left: 1000px;
+}
+
+.bottom-text{
+    margin-left: 30px;
+    color:#757575;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+
+.login{
+    display: flex;
+    justify-content: center;
+    margin-top: 11%;
+}
+.log-in{
+    width: 500px;
+    height: 426px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px #a4c7cf;
+}
+.login-container{
+    padding: 38px 63px 34px 35px;
+}
+.login-text{
+    color: #2B788B;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -1.28px;
+}
+
+
+.login-input-box{
+    display: flex;
+    flex-direction: column;
+    margin-top: 46px;
+}
+.login-email{
+    color: #2B788B;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+
+    display: flex;
+    width: 400px;
+    height: 70px;
+    padding: 20px 279px 34px 39px;
+    align-items: center;
+    flex-shrink: 0;
+    border: none;
+
+    padding: 20px 279px 34px 39px;
+    border-radius: 100px;
+    background-color: #C3DCE3;
+
+    transition: box-shadow 0.1s linear;
+}
+.login-email:hover{
+    box-shadow: 0 0 10px #a4c7cf;
+}
+.login-pass{
+    color: #2B788B;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+
+    display: flex;
+    width: 400px;
+    height: 70px;
+    padding: 20px 279px 34px 39px;
+    align-items: center;
+    flex-shrink: 0;
+    border: none;
+
+    padding: 20px 279px 34px 39px;
+    border-radius: 100px;
+    background-color: #C3DCE3;
+
+    margin-top: 36px;
+
+    transition: box-shadow 0.1s linear;
+}
+.login-pass:hover{
+    box-shadow: 0 0 10px #a4c7cf;
+}
+
+.login-btn{
+    margin-top: 50px;
+}
+.login-btn-link{
+    margin-top: 50px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+
+    padding: 14px 22px;
+    border-radius: 100px;
+    background-color:#2B788B;
+
+    transition: background-color 0.05s linear;
+}
+
+.login-btn-link:active{
+    background-color:#153b44;
+}
